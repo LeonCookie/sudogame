@@ -1,0 +1,54 @@
+
+*{
+  background-color: #164352;
+  font-family: "Open Sans", sans-serif;
+  font-size: 40px;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #87ACA3;
+  text-align: center;
+  
+}
+#MainAuthorDiv{ 
+  margin-top: 0%;
+  width: 100%;
+  height: 100%;
+}
+#AuthorNameDiv{
+  width: 40%;
+  margin-left: 30%;
+  margin-right:  50%;
+
+  color: #87ACA3;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  
+}
+
+
+#backarrowIMG{
+  height: 5%;
+  width: 5%;
+  float: left;
+  padding-top: 0%;
+}
+#githubIMG{
+  height: 10%;
+  width: 10%;
+  margin-left: 3%;
+}
+#discordIMG{
+  height: 10%;
+  width: 10%;
+  left: 20px;
+  margin-left: 20%;
+}
+
+#IconsDiv>#githubIMG{
+  float:left;
+}
+#IconsDiv>#discordIMG{
+  float:right;
+}

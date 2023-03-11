@@ -1,8 +1,11 @@
-import logo from './logo.svg';
 import './App.css';  
 
 function goToAuthor() {
   window.location.replace("Author.html");
+}
+function goToGame(){
+  window.location.replace("mainGame.html");
+
 }
 function App() {
 
@@ -15,7 +18,7 @@ function App() {
     </div>
     <div id="MenuDiv">
     <h1 class>Sokoban</h1>      
-      <button id="StartBtn"class="button-54" >Start</button>
+      <button id="StartBtn"class="button-54" onClick={goToGame} >Start</button>
       <br></br>
       <button id="AuthorBtn" class="button-54" onClick={goToAuthor }>Author</button>
     </div>

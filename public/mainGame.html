@@ -4,8 +4,11 @@
   <title>Sokoban</title>
   <meta charset="UTF-8">
   <link rel="Stylesheet" href="MainGame.css">
+  
 </head>
 <body>
+  <a href="http://localhost:3000/"><img src="fast-forward-removebg-preview.png" id="backarrowIMG" ></a>
+
 <canvas width="400" height="400" id="game"></canvas>
 <script>
 const canvas = document.getElementById('game');
@@ -18,6 +21,7 @@ const wallCtx = wallCanvas.getContext('2d');
 wallCanvas.width = wallCanvas.height = grid;
 
 wallCtx.fillStyle = 'gray';
+wallCtx.fillRect(0, 0, grid, grid);
 
 
 

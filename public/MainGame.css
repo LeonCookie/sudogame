@@ -8,18 +8,16 @@
     color: #87ACA3;
     text-align: center;
 }
-#backarrowIMG{
-    height: 5%;
-    width: 5%;
+#MainGameDiv{
+
+}
+  #MenuDiv{
     float: left;
-    padding-top: 0%;
+  
   }
-  #MainWindowDiv{
-    width: 800px;
-    height: 800px;
-    color: #87ACA3;
-    border: 3px solid;
-    padding: 0.25em 0.5em;
-    margin-left: 25%;
-    margin-right: 20%;
+  canvas{
+    float: left;
   }
+#GameGuide{
+  float: right;
+}

@@ -20,7 +20,8 @@ function App() {
     <h1 class>Sokoban</h1>      
       <button id="StartBtn"class="button-54" onClick={goToGame} >Start</button>
       <br></br>
-      <button id="AuthorBtn" class="button-54" onClick={goToAuthor }>Author</button>
+      <button id="AuthorBtn" class="button-54" onClick={goToAuthor }>Author</button> 
+      
     </div>
     </div>
 
@@ -29,5 +30,5 @@ function App() {
     
   );
 }
-
+//made by Leon R
 export default App;
